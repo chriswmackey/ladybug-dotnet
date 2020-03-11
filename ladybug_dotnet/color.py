@@ -6,10 +6,14 @@ except ImportError as e:
     print("Ladybug_dotnet is only available when running on Windows/.NET\n{}".format(e))
 
 
-def color_to_color(color):
-    """Convert a ladybug color into .NET color."""
+def color_to_color(color, alpha=255):
+    """Convert a ladybug color into .NET color.
+    
+    Args:
+        alpha: Optional integer betwen 1 and 255 for the alpha value of the color.
+    """
     try:
-        return Color.FromArgb(255, color.r, color.g, color.b)
+        return Color.FromArgb(alpha, color.r, color.g, color.b)
     except AttributeError as e:
         raise AttributeError('Input must be of type of Color:\n{}'.format(e))
 
