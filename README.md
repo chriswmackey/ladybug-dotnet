@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/ladybug-tools/ladybug-dotnet.svg?branch=master)](https://travis-ci.org/ladybug-tools/ladybug-dotnet)
+# This repository is no longer being developed
 
-[![IronPython](https://img.shields.io/badge/ironpython-2.7-red.svg)](https://github.com/IronLanguages/ironpython2/releases/tag/ipy-2.7.8/)
+Any code that might have gone to this repository should now go to [ladybug-rhino](https://github.com/ladybug-tools/ladybug-rhino).
 
-# ladybug-dotnet
+## ladybug-dotnet
 
 A library for communicating between Ladybug Tools core Python libraries and .NET libraries
 
